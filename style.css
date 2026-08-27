@@ -46,8 +46,8 @@ body {
    ===================================================== */
 
 header {
-    min-height: 100vh;
-    padding: 0 8%;
+    min-height: auto;
+    padding: 90px 8% 60px;
 
     background-color: var(--fondo);
 
