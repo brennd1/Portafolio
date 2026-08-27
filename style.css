@@ -1826,6 +1826,38 @@ footer {
     .forma-4 {
         left: -170px;
     }
+    /* Burbujas nuevas del hero */
+    .forma-7,
+    .forma-11,
+    .forma-12,
+    .forma-13,
+    .forma-15,
+    .forma-16 {
+        display: none;
+    }
+
+    .forma-8 {
+        width: 260px;
+        height: 260px;
+
+        left: 150px;
+    }
+
+    .forma-14 {
+        width: 220px;
+        height: 220px;
+
+        left: -150px;
+    }
+
+    .forma-10 {
+        left: auto;
+        right: -60px;
+    }
+
+    .forma-9 {
+        left: -180px;
+    }
 }
 
 
@@ -1836,9 +1868,9 @@ footer {
 @media (max-width: 600px) {
 
     header {
-        min-height: 90vh;
+        min-height: auto;
 
-        padding: 0 25px;
+        padding: 40px 25px 60px;
     }
 
     header nav {
@@ -1908,6 +1940,17 @@ footer {
 
     .decoracion .circulo-2 {
         left: -100px;
+    }
+    /* Franja de tecnologías en celular */
+    #tecnologias::before {
+        top: -20px;
+        bottom: -20px;
+    }
+
+    #tecnologias .circulo-1,
+    #tecnologias .circulo-2,
+    #tecnologias .circulo-3 {
+        display: none;
     }
 }
 
